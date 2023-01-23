@@ -1,7 +1,8 @@
 package com.n2sbasics;
 
 public class Example {
-
+	
+        public int age = 12;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         System.out.println("welcome");
@@ -31,5 +32,8 @@ public class Example {
 
 }
 class Example2 {
-	
+	public int mult(int i, int y)
+	 {
+		 return i * y;
+	 }
 }
